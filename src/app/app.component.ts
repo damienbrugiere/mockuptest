@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mockupTest';
+
+
+  public model = {
+    left: true,
+    middle: false,
+    right: false
+  };
 }
